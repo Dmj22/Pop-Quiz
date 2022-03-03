@@ -9,7 +9,10 @@ body{
     background-color: rgb(18, 39, 46);
 }
 
-.start_btn{
+.start_btn,
+.question1,
+.options-list,
+.test-cube{
     flex: 1;
     display: flex;
     flex-wrap: wrap;
@@ -19,10 +22,14 @@ body{
     
 }
 
-*.start_btn button{
+.start_btn button{
     font-size: 50px;
     font-weight: bold;
     color: rgb(211, 238, 248);
     border-bottom-width: none;
     background-color: white;
 }
+
+/* cube test questions*/
+
+.test-cube
